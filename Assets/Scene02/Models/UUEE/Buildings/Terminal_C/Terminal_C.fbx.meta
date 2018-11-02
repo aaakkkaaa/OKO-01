@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: ce7429432adb18848a67893bea793b99
+timeCreated: 1510961566
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: mesh1
+    100002: mesh10
+    100004: mesh11
+    100006: mesh12
+    100008: mesh13
+    100010: mesh14
+    100012: mesh15
+    100014: mesh16
+    100016: mesh17
+    100018: mesh18
+    100020: mesh19
+    100022: mesh2
+    100024: mesh20
+    100026: mesh21
+    100028: mesh22
+    100030: mesh23
+    100032: mesh24
+    100034: mesh25
+    100036: mesh26
+    100038: mesh27
+    100040: mesh28
+    100042: mesh29
+    100044: mesh3
+    100046: mesh30
+    100048: mesh31
+    100050: mesh32
+    100052: mesh33
+    100054: mesh34
+    100056: mesh35
+    100058: mesh4
+    100060: mesh5
+    100062: mesh6
+    100064: mesh7
+    100066: mesh8
+    100068: mesh9
+    100070: Susan
+    100072: //RootNode
+    100074: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D"
+    100076: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_10"
+    100078: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_11"
+    100080: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_12"
+    100082: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_13"
+    100084: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_14"
+    100086: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_15"
+    100088: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_16"
+    100090: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_17"
+    100092: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_18"
+    100094: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_19"
+    100096: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_2"
+    100098: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_20"
+    100100: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_21"
+    100102: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_22"
+    100104: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_23"
+    100106: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_24"
+    100108: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_25"
+    100110: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_26"
+    100112: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_27"
+    100114: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_28"
+    100116: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_29"
+    100118: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_3"
+    100120: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_30"
+    100122: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_31"
+    100124: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_32"
+    100126: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_33"
+    100128: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_34"
+    100130: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_35"
+    100132: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_36"
+    100134: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_37"
+    100136: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_38"
+    100138: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_39"
+    100140: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_4"
+    100142: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_40"
+    100144: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_41"
+    100146: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_42"
+    100148: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_43"
+    100150: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_44"
+    100152: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_45"
+    100154: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_46"
+    100156: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_47"
+    100158: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_48"
+    100160: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_49"
+    100162: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_5"
+    100164: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_50"
+    100166: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_51"
+    100168: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_52"
+    100170: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_53"
+    100172: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_54"
+    100174: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_55"
+    100176: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_56"
+    100178: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_57"
+    100180: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_58"
+    100182: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_59"
+    100184: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_6"
+    100186: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_60"
+    100188: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_61"
+    100190: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_62"
+    100192: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_63"
+    100194: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_64"
+    100196: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_65"
+    100198: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_66"
+    100200: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_67"
+    100202: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_68"
+    100204: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_69"
+    100206: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_7"
+    100208: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_70"
+    100210: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_71"
+    100212: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_72"
+    100214: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_73"
+    100216: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_74"
+    100218: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_75"
+    100220: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_76"
+    100222: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_77"
+    100224: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_78"
+    100226: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_79"
+    100228: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_8"
+    100230: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_80"
+    100232: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_81"
+    100234: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_82"
+    100236: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_83"
+    100238: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_84"
+    100240: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_85"
+    100242: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_86"
+    100244: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_87"
+    100246: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_88"
+    100248: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_89"
+    100250: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_9"
+    100252: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_90"
+    100254: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_91"
+    100256: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_92"
+    400000: mesh1
+    400002: mesh10
+    400004: mesh11
+    400006: mesh12
+    400008: mesh13
+    400010: mesh14
+    400012: mesh15
+    400014: mesh16
+    400016: mesh17
+    400018: mesh18
+    400020: mesh19
+    400022: mesh2
+    400024: mesh20
+    400026: mesh21
+    400028: mesh22
+    400030: mesh23
+    400032: mesh24
+    400034: mesh25
+    400036: mesh26
+    400038: mesh27
+    400040: mesh28
+    400042: mesh29
+    400044: mesh3
+    400046: mesh30
+    400048: mesh31
+    400050: mesh32
+    400052: mesh33
+    400054: mesh34
+    400056: mesh35
+    400058: mesh4
+    400060: mesh5
+    400062: mesh6
+    400064: mesh7
+    400066: mesh8
+    400068: mesh9
+    400070: Susan
+    400072: //RootNode
+    400074: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D"
+    400076: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_10"
+    400078: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_11"
+    400080: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_12"
+    400082: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_13"
+    400084: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_14"
+    400086: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_15"
+    400088: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_16"
+    400090: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_17"
+    400092: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_18"
+    400094: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_19"
+    400096: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_2"
+    400098: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_20"
+    400100: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_21"
+    400102: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_22"
+    400104: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_23"
+    400106: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_24"
+    400108: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_25"
+    400110: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_26"
+    400112: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_27"
+    400114: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_28"
+    400116: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_29"
+    400118: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_3"
+    400120: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_30"
+    400122: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_31"
+    400124: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_32"
+    400126: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_33"
+    400128: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_34"
+    400130: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_35"
+    400132: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_36"
+    400134: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_37"
+    400136: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_38"
+    400138: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_39"
+    400140: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_4"
+    400142: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_40"
+    400144: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_41"
+    400146: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_42"
+    400148: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_43"
+    400150: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_44"
+    400152: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_45"
+    400154: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_46"
+    400156: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_47"
+    400158: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_48"
+    400160: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_49"
+    400162: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_5"
+    400164: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_50"
+    400166: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_51"
+    400168: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_52"
+    400170: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_53"
+    400172: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_54"
+    400174: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_55"
+    400176: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_56"
+    400178: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_57"
+    400180: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_58"
+    400182: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_59"
+    400184: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_6"
+    400186: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_60"
+    400188: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_61"
+    400190: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_62"
+    400192: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_63"
+    400194: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_64"
+    400196: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_65"
+    400198: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_66"
+    400200: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_67"
+    400202: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_68"
+    400204: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_69"
+    400206: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_7"
+    400208: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_70"
+    400210: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_71"
+    400212: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_72"
+    400214: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_73"
+    400216: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_74"
+    400218: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_75"
+    400220: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_76"
+    400222: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_77"
+    400224: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_78"
+    400226: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_79"
+    400228: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_8"
+    400230: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_80"
+    400232: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_81"
+    400234: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_82"
+    400236: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_83"
+    400238: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_84"
+    400240: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_85"
+    400242: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_86"
+    400244: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_87"
+    400246: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_88"
+    400248: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_89"
+    400250: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_9"
+    400252: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_90"
+    400254: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_91"
+    400256: "\u041E\u0431\u044A\u0435\u043A\u0442_\u0421\u043F\u043B\u0430\u0439\u043D_92"
+    2300000: mesh1
+    2300002: mesh19
+    3300000: mesh1
+    3300002: mesh19
+    4300000: mesh19
+    4300002: mesh1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: ba1fc16e8a2e8654aabe4fc7b80308e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_10_3_0
+    second: {fileID: 2100000, guid: 0453cb8d06449ae43873adc5f85de03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_11_4_0
+    second: {fileID: 2100000, guid: 0fb2525c3dde38541b9b90ad6999cb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_11_5_0
+    second: {fileID: 2100000, guid: 11fb14cc70b8f4c4f9e512e5532c565c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_12_7_0
+    second: {fileID: 2100000, guid: 153c7795339c5c047ae684b81950c9de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_12_8_0
+    second: {fileID: 2100000, guid: 1e9b864cb03c28f49b2325d67d50e2e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_13_32_0
+    second: {fileID: 2100000, guid: e985979c1602e1f44a42a0ddcfe70875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_13_33_0
+    second: {fileID: 2100000, guid: 4b7fe6ed80e235c4ab9a3586effedb48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_13_34_0
+    second: {fileID: 2100000, guid: a6760b2cd5a647840ba458638cd01490, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_13_9_0
+    second: {fileID: 2100000, guid: b8d2942375d12b5449b5ff28e810e351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_14_11_0
+    second: {fileID: 2100000, guid: 44fcdc35036ffa743a31f517632c0fd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_12_8
+    second: {fileID: 2100000, guid: 5e354c5dea41dfb43ac33bcce99c9d0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_17_13_0
+    second: {fileID: 2100000, guid: 7391bbe61b0a3db449b46f03dc431c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_18_14_0
+    second: {fileID: 2100000, guid: 982a1adfb4b8ee74f9517bf560a254bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_19_15_0
+    second: {fileID: 2100000, guid: f1aa95a0ff5c5af45bcf077e59d5858f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_19_17_0
+    second: {fileID: 2100000, guid: 525bd34eabe826b4a8d2e277deb3e1e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_19_18_0
+    second: {fileID: 2100000, guid: e136c834aa9c38248ab015e933060110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_20_16_0
+    second: {fileID: 2100000, guid: e6fd7f5fb6aa1fd48bcf6017743f47ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_23_19_0
+    second: {fileID: 2100000, guid: e13b4d8596055ed4ab02c089e8559c71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_24_20_0
+    second: {fileID: 2100000, guid: a25a8f2aa71c35147b001eaed0ec0d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_25_21_0
+    second: {fileID: 2100000, guid: 4171a64304e7c1d4f9b3e0a8fc68ab60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_25_22_0
+    second: {fileID: 2100000, guid: 6e611992fe9cb2d44b361254f3930bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_25_23_0
+    second: {fileID: 2100000, guid: eea541be39cd85244bd9f1f551ac348e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_25_24_0
+    second: {fileID: 2100000, guid: de9b9037b8c200642bee3a5430e65ca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_25_26_0
+    second: {fileID: 2100000, guid: 93c7bbb7242fe1a4d846209bd7c5c5f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_26_25_0
+    second: {fileID: 2100000, guid: a81d9c5d85e775b46a984907681193f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_27_27_0
+    second: {fileID: 2100000, guid: 0453cb8d06449ae43873adc5f85de03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_28_28_0
+    second: {fileID: 2100000, guid: 0fb2525c3dde38541b9b90ad6999cb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_29_29_0
+    second: {fileID: 2100000, guid: 97b02e1113dcf434f89433ebfe92a9b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_30_30_0
+    second: {fileID: 2100000, guid: cef3f8c217beb9441b0edadf0aaf0c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_31_31_0
+    second: {fileID: 2100000, guid: b91f786bf56bf0145b60f0eb81bbf15c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_8_1_0
+    second: {fileID: 2100000, guid: 982a1adfb4b8ee74f9517bf560a254bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_9_10_0
+    second: {fileID: 2100000, guid: d055839a4698d09459490d5174b9e2c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_9_2_0
+    second: {fileID: 2100000, guid: a81d9c5d85e775b46a984907681193f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_9_6_0
+    second: {fileID: 2100000, guid: d073f47650ccc9f48a203fd5074867fa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

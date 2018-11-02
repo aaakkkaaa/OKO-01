@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: ceae79515c6e4b344ae3c86605b1e4c3
+timeCreated: 1510964156
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: mesh1
+    100002: mesh10
+    100004: mesh11
+    100006: mesh12
+    100008: mesh13
+    100010: mesh14
+    100012: mesh15
+    100014: mesh16
+    100016: mesh17
+    100018: mesh18
+    100020: mesh19
+    100022: mesh2
+    100024: mesh20
+    100026: mesh21
+    100028: mesh22
+    100030: mesh3
+    100032: mesh4
+    100034: mesh5
+    100036: mesh6
+    100038: mesh7
+    100040: mesh8
+    100042: mesh9
+    100044: Spline
+    100046: Spline_10
+    100048: Spline_11
+    100050: Spline_12
+    100052: Spline_13
+    100054: Spline_14
+    100056: Spline_15
+    100058: Spline_16
+    100060: Spline_17
+    100062: Spline_18
+    100064: Spline_19
+    100066: Spline_2
+    100068: Spline_20
+    100070: Spline_21
+    100072: Spline_22
+    100074: Spline_23
+    100076: Spline_24
+    100078: Spline_25
+    100080: Spline_26
+    100082: Spline_27
+    100084: Spline_28
+    100086: Spline_29
+    100088: Spline_3
+    100090: Spline_30
+    100092: Spline_31
+    100094: Spline_32
+    100096: Spline_33
+    100098: Spline_34
+    100100: Spline_35
+    100102: Spline_36
+    100104: Spline_37
+    100106: Spline_38
+    100108: Spline_39
+    100110: Spline_4
+    100112: Spline_40
+    100114: Spline_41
+    100116: Spline_42
+    100118: Spline_43
+    100120: Spline_44
+    100122: Spline_45
+    100124: Spline_46
+    100126: Spline_47
+    100128: Spline_48
+    100130: Spline_49
+    100132: Spline_5
+    100134: Spline_50
+    100136: Spline_51
+    100138: Spline_52
+    100140: Spline_53
+    100142: Spline_54
+    100144: Spline_55
+    100146: Spline_56
+    100148: Spline_57
+    100150: Spline_58
+    100152: Spline_59
+    100154: Spline_6
+    100156: Spline_60
+    100158: Spline_61
+    100160: Spline_62
+    100162: Spline_63
+    100164: Spline_64
+    100166: Spline_7
+    100168: Spline_8
+    100170: Spline_9
+    100172: Susan
+    100174: //RootNode
+    400000: mesh1
+    400002: mesh10
+    400004: mesh11
+    400006: mesh12
+    400008: mesh13
+    400010: mesh14
+    400012: mesh15
+    400014: mesh16
+    400016: mesh17
+    400018: mesh18
+    400020: mesh19
+    400022: mesh2
+    400024: mesh20
+    400026: mesh21
+    400028: mesh22
+    400030: mesh3
+    400032: mesh4
+    400034: mesh5
+    400036: mesh6
+    400038: mesh7
+    400040: mesh8
+    400042: mesh9
+    400044: Spline
+    400046: Spline_10
+    400048: Spline_11
+    400050: Spline_12
+    400052: Spline_13
+    400054: Spline_14
+    400056: Spline_15
+    400058: Spline_16
+    400060: Spline_17
+    400062: Spline_18
+    400064: Spline_19
+    400066: Spline_2
+    400068: Spline_20
+    400070: Spline_21
+    400072: Spline_22
+    400074: Spline_23
+    400076: Spline_24
+    400078: Spline_25
+    400080: Spline_26
+    400082: Spline_27
+    400084: Spline_28
+    400086: Spline_29
+    400088: Spline_3
+    400090: Spline_30
+    400092: Spline_31
+    400094: Spline_32
+    400096: Spline_33
+    400098: Spline_34
+    400100: Spline_35
+    400102: Spline_36
+    400104: Spline_37
+    400106: Spline_38
+    400108: Spline_39
+    400110: Spline_4
+    400112: Spline_40
+    400114: Spline_41
+    400116: Spline_42
+    400118: Spline_43
+    400120: Spline_44
+    400122: Spline_45
+    400124: Spline_46
+    400126: Spline_47
+    400128: Spline_48
+    400130: Spline_49
+    400132: Spline_5
+    400134: Spline_50
+    400136: Spline_51
+    400138: Spline_52
+    400140: Spline_53
+    400142: Spline_54
+    400144: Spline_55
+    400146: Spline_56
+    400148: Spline_57
+    400150: Spline_58
+    400152: Spline_59
+    400154: Spline_6
+    400156: Spline_60
+    400158: Spline_61
+    400160: Spline_62
+    400162: Spline_63
+    400164: Spline_64
+    400166: Spline_7
+    400168: Spline_8
+    400170: Spline_9
+    400172: Susan
+    400174: //RootNode
+    2300000: mesh1
+    2300002: mesh19
+    3300000: mesh1
+    3300002: mesh19
+    4300000: mesh19
+    4300002: mesh1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7ddc746cdd91064439bc91ce54148d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_10_3_0
+    second: {fileID: 2100000, guid: 8917ab547e02d9a41ad52e14d21abb77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_10_3_8
+    second: {fileID: 2100000, guid: 8917ab547e02d9a41ad52e14d21abb77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_11_4_8
+    second: {fileID: 2100000, guid: 4a25e8a04e349a74a8036c5162a4f2bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_12_5_8
+    second: {fileID: 2100000, guid: fa0222cbbc2cd4746b94f963fdb5348c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_13_6_8
+    second: {fileID: 2100000, guid: 0b06205594b39604ea1c9e6c7d2de7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_14_7_8
+    second: {fileID: 2100000, guid: 5a9e1ab1e5d464a4395d717ea989ce54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_8_8
+    second: {fileID: 2100000, guid: 66402ca7272710f4bade19ba8cf91946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_16_9_8
+    second: {fileID: 2100000, guid: 97cd3367c7c799b4fac434613b192519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_8_1_0
+    second: {fileID: 2100000, guid: 374a92419bdb2a445b69d1c1484acbc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_9_2_0
+    second: {fileID: 2100000, guid: 4ec956e4a5d7f4f45b928d25303862b3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

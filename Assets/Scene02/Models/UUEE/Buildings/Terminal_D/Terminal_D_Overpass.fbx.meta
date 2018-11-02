@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: fbdcb26425e57fe4886644b37c824818
+timeCreated: 1510966290
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: mesh1
+    100002: mesh10
+    100004: mesh11
+    100006: mesh12
+    100008: mesh13
+    100010: mesh14
+    100012: mesh15
+    100014: mesh16
+    100016: mesh17
+    100018: mesh18
+    100020: mesh19
+    100022: mesh2
+    100024: mesh20
+    100026: mesh21
+    100028: mesh22
+    100030: mesh23
+    100032: mesh24
+    100034: mesh25
+    100036: mesh26
+    100038: mesh27
+    100040: mesh28
+    100042: mesh29
+    100044: mesh3
+    100046: mesh30
+    100048: mesh31
+    100050: mesh32
+    100052: mesh33
+    100054: mesh4
+    100056: mesh5
+    100058: mesh6
+    100060: mesh7
+    100062: mesh8
+    100064: mesh9
+    100066: Spline
+    100068: Spline_10
+    100070: Spline_11
+    100072: Spline_12
+    100074: Spline_13
+    100076: Spline_14
+    100078: Spline_15
+    100080: Spline_16
+    100082: Spline_17
+    100084: Spline_18
+    100086: Spline_19
+    100088: Spline_2
+    100090: Spline_20
+    100092: Spline_21
+    100094: Spline_22
+    100096: Spline_23
+    100098: Spline_24
+    100100: Spline_25
+    100102: Spline_26
+    100104: Spline_27
+    100106: Spline_28
+    100108: Spline_29
+    100110: Spline_3
+    100112: Spline_30
+    100114: Spline_31
+    100116: Spline_32
+    100118: Spline_33
+    100120: Spline_34
+    100122: Spline_35
+    100124: Spline_36
+    100126: Spline_37
+    100128: Spline_38
+    100130: Spline_39
+    100132: Spline_4
+    100134: Spline_40
+    100136: Spline_41
+    100138: Spline_42
+    100140: Spline_43
+    100142: Spline_44
+    100144: Spline_45
+    100146: Spline_46
+    100148: Spline_47
+    100150: Spline_48
+    100152: Spline_49
+    100154: Spline_5
+    100156: Spline_50
+    100158: Spline_51
+    100160: Spline_52
+    100162: Spline_53
+    100164: Spline_54
+    100166: Spline_55
+    100168: Spline_56
+    100170: Spline_57
+    100172: Spline_58
+    100174: Spline_59
+    100176: Spline_6
+    100178: Spline_60
+    100180: Spline_61
+    100182: Spline_7
+    100184: Spline_8
+    100186: Spline_9
+    100188: //RootNode
+    400000: mesh1
+    400002: mesh10
+    400004: mesh11
+    400006: mesh12
+    400008: mesh13
+    400010: mesh14
+    400012: mesh15
+    400014: mesh16
+    400016: mesh17
+    400018: mesh18
+    400020: mesh19
+    400022: mesh2
+    400024: mesh20
+    400026: mesh21
+    400028: mesh22
+    400030: mesh23
+    400032: mesh24
+    400034: mesh25
+    400036: mesh26
+    400038: mesh27
+    400040: mesh28
+    400042: mesh29
+    400044: mesh3
+    400046: mesh30
+    400048: mesh31
+    400050: mesh32
+    400052: mesh33
+    400054: mesh4
+    400056: mesh5
+    400058: mesh6
+    400060: mesh7
+    400062: mesh8
+    400064: mesh9
+    400066: Spline
+    400068: Spline_10
+    400070: Spline_11
+    400072: Spline_12
+    400074: Spline_13
+    400076: Spline_14
+    400078: Spline_15
+    400080: Spline_16
+    400082: Spline_17
+    400084: Spline_18
+    400086: Spline_19
+    400088: Spline_2
+    400090: Spline_20
+    400092: Spline_21
+    400094: Spline_22
+    400096: Spline_23
+    400098: Spline_24
+    400100: Spline_25
+    400102: Spline_26
+    400104: Spline_27
+    400106: Spline_28
+    400108: Spline_29
+    400110: Spline_3
+    400112: Spline_30
+    400114: Spline_31
+    400116: Spline_32
+    400118: Spline_33
+    400120: Spline_34
+    400122: Spline_35
+    400124: Spline_36
+    400126: Spline_37
+    400128: Spline_38
+    400130: Spline_39
+    400132: Spline_4
+    400134: Spline_40
+    400136: Spline_41
+    400138: Spline_42
+    400140: Spline_43
+    400142: Spline_44
+    400144: Spline_45
+    400146: Spline_46
+    400148: Spline_47
+    400150: Spline_48
+    400152: Spline_49
+    400154: Spline_5
+    400156: Spline_50
+    400158: Spline_51
+    400160: Spline_52
+    400162: Spline_53
+    400164: Spline_54
+    400166: Spline_55
+    400168: Spline_56
+    400170: Spline_57
+    400172: Spline_58
+    400174: Spline_59
+    400176: Spline_6
+    400178: Spline_60
+    400180: Spline_61
+    400182: Spline_7
+    400184: Spline_8
+    400186: Spline_9
+    400188: //RootNode
+    2300000: mesh1
+    3300000: mesh1
+    4300000: mesh1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7ddc746cdd91064439bc91ce54148d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0_1_0
+    second: {fileID: 2100000, guid: 374a92419bdb2a445b69d1c1484acbc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1_2_0
+    second: {fileID: 2100000, guid: 4ec956e4a5d7f4f45b928d25303862b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_3_3_8
+    second: {fileID: 2100000, guid: 8917ab547e02d9a41ad52e14d21abb77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_4_4_8
+    second: {fileID: 2100000, guid: 4a25e8a04e349a74a8036c5162a4f2bd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

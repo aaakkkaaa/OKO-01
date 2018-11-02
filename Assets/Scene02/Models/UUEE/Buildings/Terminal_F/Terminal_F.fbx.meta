@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 46c321b9c70947749b53f24d64a497c9
+timeCreated: 1510959772
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: mesh1
+    100002: mesh10
+    100004: mesh11
+    100006: mesh12
+    100008: mesh13
+    100010: mesh14
+    100012: mesh15
+    100014: mesh16
+    100016: mesh17
+    100018: mesh18
+    100020: mesh19
+    100022: mesh2
+    100024: mesh20
+    100026: mesh21
+    100028: mesh22
+    100030: mesh23
+    100032: mesh24
+    100034: mesh25
+    100036: mesh26
+    100038: mesh27
+    100040: mesh28
+    100042: mesh29
+    100044: mesh3
+    100046: mesh30
+    100048: mesh31
+    100050: mesh32
+    100052: mesh33
+    100054: mesh34
+    100056: mesh35
+    100058: mesh36
+    100060: mesh37
+    100062: mesh38
+    100064: mesh39
+    100066: mesh4
+    100068: mesh40
+    100070: mesh41
+    100072: mesh42
+    100074: mesh43
+    100076: mesh44
+    100078: mesh45
+    100080: mesh46
+    100082: mesh47
+    100084: mesh48
+    100086: mesh49
+    100088: mesh5
+    100090: mesh50
+    100092: mesh51
+    100094: mesh52
+    100096: mesh53
+    100098: mesh54
+    100100: mesh55
+    100102: mesh56
+    100104: mesh6
+    100106: mesh7
+    100108: mesh8
+    100110: mesh9
+    100112: Spline
+    100114: Spline_10
+    100116: Spline_11
+    100118: Spline_12
+    100120: Spline_13
+    100122: Spline_14
+    100124: Spline_15
+    100126: Spline_16
+    100128: Spline_17
+    100130: Spline_18
+    100132: Spline_19
+    100134: Spline_2
+    100136: Spline_20
+    100138: Spline_21
+    100140: Spline_22
+    100142: Spline_23
+    100144: Spline_24
+    100146: Spline_25
+    100148: Spline_26
+    100150: Spline_27
+    100152: Spline_28
+    100154: Spline_29
+    100156: Spline_3
+    100158: Spline_30
+    100160: Spline_31
+    100162: Spline_32
+    100164: Spline_33
+    100166: Spline_34
+    100168: Spline_35
+    100170: Spline_36
+    100172: Spline_37
+    100174: Spline_38
+    100176: Spline_39
+    100178: Spline_4
+    100180: Spline_40
+    100182: Spline_41
+    100184: Spline_42
+    100186: Spline_43
+    100188: Spline_44
+    100190: Spline_45
+    100192: Spline_46
+    100194: Spline_47
+    100196: Spline_48
+    100198: Spline_49
+    100200: Spline_5
+    100202: Spline_50
+    100204: Spline_51
+    100206: Spline_52
+    100208: Spline_53
+    100210: Spline_54
+    100212: Spline_55
+    100214: Spline_56
+    100216: Spline_57
+    100218: Spline_58
+    100220: Spline_59
+    100222: Spline_6
+    100224: Spline_60
+    100226: Spline_61
+    100228: Spline_62
+    100230: Spline_63
+    100232: Spline_64
+    100234: Spline_65
+    100236: Spline_66
+    100238: Spline_67
+    100240: Spline_68
+    100242: Spline_69
+    100244: Spline_7
+    100246: Spline_70
+    100248: Spline_71
+    100250: Spline_72
+    100252: Spline_73
+    100254: Spline_74
+    100256: Spline_75
+    100258: Spline_76
+    100260: Spline_77
+    100262: Spline_78
+    100264: Spline_79
+    100266: Spline_8
+    100268: Spline_9
+    100270: //RootNode
+    400000: mesh1
+    400002: mesh10
+    400004: mesh11
+    400006: mesh12
+    400008: mesh13
+    400010: mesh14
+    400012: mesh15
+    400014: mesh16
+    400016: mesh17
+    400018: mesh18
+    400020: mesh19
+    400022: mesh2
+    400024: mesh20
+    400026: mesh21
+    400028: mesh22
+    400030: mesh23
+    400032: mesh24
+    400034: mesh25
+    400036: mesh26
+    400038: mesh27
+    400040: mesh28
+    400042: mesh29
+    400044: mesh3
+    400046: mesh30
+    400048: mesh31
+    400050: mesh32
+    400052: mesh33
+    400054: mesh34
+    400056: mesh35
+    400058: mesh36
+    400060: mesh37
+    400062: mesh38
+    400064: mesh39
+    400066: mesh4
+    400068: mesh40
+    400070: mesh41
+    400072: mesh42
+    400074: mesh43
+    400076: mesh44
+    400078: mesh45
+    400080: mesh46
+    400082: mesh47
+    400084: mesh48
+    400086: mesh49
+    400088: mesh5
+    400090: mesh50
+    400092: mesh51
+    400094: mesh52
+    400096: mesh53
+    400098: mesh54
+    400100: mesh55
+    400102: mesh56
+    400104: mesh6
+    400106: mesh7
+    400108: mesh8
+    400110: mesh9
+    400112: Spline
+    400114: Spline_10
+    400116: Spline_11
+    400118: Spline_12
+    400120: Spline_13
+    400122: Spline_14
+    400124: Spline_15
+    400126: Spline_16
+    400128: Spline_17
+    400130: Spline_18
+    400132: Spline_19
+    400134: Spline_2
+    400136: Spline_20
+    400138: Spline_21
+    400140: Spline_22
+    400142: Spline_23
+    400144: Spline_24
+    400146: Spline_25
+    400148: Spline_26
+    400150: Spline_27
+    400152: Spline_28
+    400154: Spline_29
+    400156: Spline_3
+    400158: Spline_30
+    400160: Spline_31
+    400162: Spline_32
+    400164: Spline_33
+    400166: Spline_34
+    400168: Spline_35
+    400170: Spline_36
+    400172: Spline_37
+    400174: Spline_38
+    400176: Spline_39
+    400178: Spline_4
+    400180: Spline_40
+    400182: Spline_41
+    400184: Spline_42
+    400186: Spline_43
+    400188: Spline_44
+    400190: Spline_45
+    400192: Spline_46
+    400194: Spline_47
+    400196: Spline_48
+    400198: Spline_49
+    400200: Spline_5
+    400202: Spline_50
+    400204: Spline_51
+    400206: Spline_52
+    400208: Spline_53
+    400210: Spline_54
+    400212: Spline_55
+    400214: Spline_56
+    400216: Spline_57
+    400218: Spline_58
+    400220: Spline_59
+    400222: Spline_6
+    400224: Spline_60
+    400226: Spline_61
+    400228: Spline_62
+    400230: Spline_63
+    400232: Spline_64
+    400234: Spline_65
+    400236: Spline_66
+    400238: Spline_67
+    400240: Spline_68
+    400242: Spline_69
+    400244: Spline_7
+    400246: Spline_70
+    400248: Spline_71
+    400250: Spline_72
+    400252: Spline_73
+    400254: Spline_74
+    400256: Spline_75
+    400258: Spline_76
+    400260: Spline_77
+    400262: Spline_78
+    400264: Spline_79
+    400266: Spline_8
+    400268: Spline_9
+    400270: //RootNode
+    2300000: mesh1
+    2300002: mesh2
+    2300004: mesh3
+    3300000: mesh1
+    3300002: mesh2
+    3300004: mesh3
+    4300000: mesh3
+    4300002: mesh2
+    4300004: mesh1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 31984772c3e6bf84ca41a1d1c758e3cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_10_9_8
+    second: {fileID: 2100000, guid: b86837ce32811e448992df953254c6b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_11_10_8
+    second: {fileID: 2100000, guid: e01a0baa391ff7b4da57ac72367175c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_12_11_0
+    second: {fileID: 2100000, guid: c13df282badada94b8f5924ccb102fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_14_12_0
+    second: {fileID: 2100000, guid: 2ad765bf1384d7e4bbb8837c61a2582b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_13_8
+    second: {fileID: 2100000, guid: ebd7789a630d2274e944faa3cc5b03bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_14_8
+    second: {fileID: 2100000, guid: 9d7f1b948308cda4294d1bdf0b845f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_15_8
+    second: {fileID: 2100000, guid: 6d21ffbfb8128ab4588888b03669cf4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_16_8
+    second: {fileID: 2100000, guid: 0d50175e38aff774486a63ccb3882be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_17_8
+    second: {fileID: 2100000, guid: 64b95f39ee871e348b4ebddcd1847fa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_18_8
+    second: {fileID: 2100000, guid: 7f86abda80c972a4aa9f142732d40cea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_19_8
+    second: {fileID: 2100000, guid: 365bc586ef4799c459f02b99ae04ed61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_20_8
+    second: {fileID: 2100000, guid: 59f2b1852abc5f94ea2204115bf1b70b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_21_8
+    second: {fileID: 2100000, guid: 18028977203f383429babec0cd2a7a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_22_8
+    second: {fileID: 2100000, guid: 9a623de464026124db50fe11fd28c1bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_23_8
+    second: {fileID: 2100000, guid: c24b6754258746641942ad31365f2d85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_24_8
+    second: {fileID: 2100000, guid: ec869fcf4bad94043a6d8bad48daf918, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_25_8
+    second: {fileID: 2100000, guid: bf87bdadba71d5f4d8773c4e24550e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_26_8
+    second: {fileID: 2100000, guid: bdf394aaed1d8cd49a59a4aadaf6da2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_27_8
+    second: {fileID: 2100000, guid: 9ddfacbd915519b4aaf560d64be2fc52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_28_8
+    second: {fileID: 2100000, guid: e7cfa8e502ef77140bba18b1b75ae113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_29_8
+    second: {fileID: 2100000, guid: 178d3f2d0abbeca40a60b6342078749b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_30_8
+    second: {fileID: 2100000, guid: be041da21b4a1524aaa89c14c90131c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_31_8
+    second: {fileID: 2100000, guid: 8ec5e5dd0a4a5684f818d8dd4f4cde6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_32_8
+    second: {fileID: 2100000, guid: b27345fb1ab4ab246a27d8db847a871c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_33_8
+    second: {fileID: 2100000, guid: 0fed5b57e2b98474283d9a20d025cc1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_34_8
+    second: {fileID: 2100000, guid: 4c9f21dbbe5e29741a0c600bc03bec5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_35_8
+    second: {fileID: 2100000, guid: 1a97d96c857c1bb419fe25187ea55c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_36_8
+    second: {fileID: 2100000, guid: 45d282512c47fa8409c3b44bf14bba08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_15_37_8
+    second: {fileID: 2100000, guid: b3e9a113bb8a5db4285f5ed50a2472d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_1_1_0
+    second: {fileID: 2100000, guid: d7be2f8a5da990f4b92c6ae9e273489b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_2_2_0
+    second: {fileID: 2100000, guid: e15111c885b73f142b550ee33725d0fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_3_3_0
+    second: {fileID: 2100000, guid: 110de56c6e78ff54190685f84b98a673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_5_4_8
+    second: {fileID: 2100000, guid: fa042000771f1b340908dad67369bec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_6_5_8
+    second: {fileID: 2100000, guid: 8398d741df4c86a47beedfa4e68784f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_7_6_8
+    second: {fileID: 2100000, guid: bd436af650e710c48bbba5fa0990f4ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_8_7_8
+    second: {fileID: 2100000, guid: f17cf4105c5d4204d9e76c805343eb4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_9_8_8
+    second: {fileID: 2100000, guid: 352c0e1d86d96034094e9184dfd91cc1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
