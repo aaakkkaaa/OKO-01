@@ -1002,6 +1002,11 @@ public class sFlightRadar : MonoBehaviour {
                                 break;
                         }
                     }
+
+                    // Отладка. Выведем в консоль модель и оператора самолета
+                    print("Модель " + myAllPlanesPars[myKeys[i]].Mdl + ", Код модели " + myAllPlanesPars[myKeys[i]].Type + ", Оператор " + myAllPlanesPars[myKeys[i]].Op + ", Код оператора " + myAllPlanesPars[myKeys[i]].OpIcao);
+
+
                     // Теперь попробуем подобрать подходящую 3D модель из словаря по тексту названия модели самолета
                     String my3DName = "";
                     switch (myPlane.Banner1Model.text)
@@ -1009,11 +1014,29 @@ public class sFlightRadar : MonoBehaviour {
                         case "Airbus A319":
                         case "Airbus A320":
                         case "Airbus A321":
-                            my3DName = "A320";
+                            if(myAllPlanesPars[myKeys[i]].OpIcao == "AFL") // Аэрофлот
+                            {
+                                my3DName = "A320_AFL";
+                            }
+                            else if(myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
+                            {
+                                my3DName = "A320_S7";
+                            }
+                            else // Любой другой A320
+                            {
+                                my3DName = "Plane_Model";
+                            }
                             break;
                         case "Boeing 737":
                         case "Boeing 737NG":
-                            my3DName = "B737";
+                            if (myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
+                            {
+                                my3DName = "B737_S7";
+                            }
+                            else // Любой другой B737
+                            {
+                                my3DName = "B737";
+                            }
                             break;
                         case "Sukhoi Superjet 100":
                             my3DName = "SSJ100";
