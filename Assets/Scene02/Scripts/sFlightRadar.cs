@@ -1024,12 +1024,16 @@ public class sFlightRadar : MonoBehaviour {
                             }
                             else // Любой другой A320
                             {
-                                my3DName = "Plane_Model";
+                                my3DName = "A320";
                             }
                             break;
                         case "Boeing 737":
                         case "Boeing 737NG":
-                            if (myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
+                            if (myAllPlanesPars[myKeys[i]].OpIcao == "AFL") // Аэрофлот
+                            {
+                                my3DName = "B737_AFL";
+                            }
+                            else if (myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
                             {
                                 my3DName = "B737_S7";
                             }
@@ -1062,7 +1066,7 @@ public class sFlightRadar : MonoBehaviour {
                             my3DName = "Cessna172";
                             break;
                         default:
-                            my3DName = "Plane_Model";
+                            my3DName = "A320";
                             break;
                     }
 
