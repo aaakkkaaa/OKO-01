@@ -26,8 +26,6 @@ public class sMortarMovement : MonoBehaviour
     [SerializeField]
     Text mySceenMessage;
 
-    [SerializeField]
-    float w = 0f;
 
     Quaternion _originalRotation;
     Vector3 _origin;
@@ -83,7 +81,7 @@ public class sMortarMovement : MonoBehaviour
 		var x = 0f;
 		var y = 0f;
 		var z = 0f;
-        //var w = 0f;
+        var w = 0f;
         float myCurMouseX = 0;
 
         if (myFlight) // Только перелетаем в заданное положение

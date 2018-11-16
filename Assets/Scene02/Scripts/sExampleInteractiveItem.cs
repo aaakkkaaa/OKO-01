@@ -38,9 +38,9 @@ namespace VRStandardAssets.Examples
 
             myPlaneName = transform.parent.parent.name;
             myBannerImg = transform.parent.Find("Panel").GetComponent<Image>();
-            Debug.Log("myBannerImg = " + myBannerImg);
+            //Debug.Log("myBannerImg = " + myBannerImg);
             myBannerColor = myBannerImg.color;
-            Debug.Log("myBannerColor = " + myBannerColor);
+            //Debug.Log("myBannerColor = " + myBannerColor);
         }
 
 

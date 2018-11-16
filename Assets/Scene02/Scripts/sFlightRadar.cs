@@ -257,8 +257,14 @@ public class sFlightRadar : MonoBehaviour {
     // Счетчик медленных самолетов
     int mySlowPlanesCount = 0;
 
-    // Словарь - список имеющихся моделей самолетов. Содержит указатели на модели. Ключи - имена в иерархии. Нужен для быстрого доступа к моделям при создании новых самолетов
+    // Словарь - список имеющихся моделей самолетов. Содержит указатели на модели. Ключи - имена на сцене. Нужен для быстрого доступа к моделям при создании новых самолетов
     Dictionary<String, Transform> myPlanes3D = new Dictionary<String, Transform>();
+
+    // Словарь "Известные модели самолетов -> имеющиеся 3D модели". Ключ - "Код ИКАО модели", содержание - первая часть имени модели на сцене (без авиакомпании)
+    Dictionary<String, String> myKnownPlanes = new Dictionary<String, String>();
+
+    // Словарь "Известные авиакомпании -> имеющиеся авиакомпании (среди 3D моделей)". Ключ - "Код ИКАО авиакомпании", содержание - вторая часть имени модели на сцене (без модели самолета)
+    Dictionary<String, String> myKnownAirlines = new Dictionary<String, String>();
 
     // Словарь - список полей баннера с дополнительной информацией
     Dictionary<String, Text> myBanner2Fields = new Dictionary<String, Text>();
@@ -324,6 +330,49 @@ public class sFlightRadar : MonoBehaviour {
             Transform myPlaneTr = myObjTr.GetChild(i);
             myPlanes3D.Add(myPlaneTr.name, myPlaneTr);
         }
+
+        // Заполним словарь "Известные модели самолетов -> имеющиеся 3D модели". Ключ - "Код ИКАО модели", содержание - первая часть имени модели на сцене (без авиакомпании)
+        myKnownPlanes.Add("A319", "A320");
+        myKnownPlanes.Add("A320", "A320");
+        myKnownPlanes.Add("A321", "A320");
+
+        myKnownPlanes.Add("A388", "A380");
+
+        myKnownPlanes.Add("B731", "B737");
+        myKnownPlanes.Add("B732", "B737");
+        myKnownPlanes.Add("B733", "B737");
+        myKnownPlanes.Add("B734", "B737");
+        myKnownPlanes.Add("B735", "B737");
+        myKnownPlanes.Add("B736", "B737");
+        myKnownPlanes.Add("B737", "B737");
+        myKnownPlanes.Add("B738", "B737");
+        myKnownPlanes.Add("B739", "B737");
+
+        myKnownPlanes.Add("B741", "B747");
+        myKnownPlanes.Add("B742", "B747");
+        myKnownPlanes.Add("B743", "B747");
+        myKnownPlanes.Add("B744", "B747");
+        myKnownPlanes.Add("B748", "B747");
+        myKnownPlanes.Add("B74D", "B747");
+        myKnownPlanes.Add("B74R", "B747");
+        myKnownPlanes.Add("B74S", "B747");
+
+        myKnownPlanes.Add("B772", "B777");
+        myKnownPlanes.Add("B773", "B777");
+
+        myKnownPlanes.Add("E135", "ERJ145");
+        myKnownPlanes.Add("E145", "ERJ145");
+
+        myKnownPlanes.Add("IL96", "IL96");
+        myKnownPlanes.Add("SU95", "SSJ100");
+
+        myKnownPlanes.Add("C172", "Cessna172");
+        myKnownPlanes.Add("C72R", "Cessna172");
+
+        // Заполним словарь "Известные авиакомпании -> имеющиеся авиакомпании". Ключ - "Код ИКАО авиакомпании", содержание - вторая часть имени модели на сцене (без модели самолета)
+        myKnownAirlines.Add("AFL", "AFL");
+        myKnownAirlines.Add("SBI", "S7");
+
 
         // Заполним словарь - список полей баннера с дополнительной информацией
         // Для всех детей объекта myBanner2
@@ -1002,11 +1051,74 @@ public class sFlightRadar : MonoBehaviour {
                                 break;
                         }
                     }
+                    // Сформируем имя 3D модели по ICAO кодам самолета и авиакомпании
+                    String myModelName; // первая часть имени - модель самолета
+                    if(myAllPlanesPars[myKeys[i]].Type == null)
+                    {
+                        myModelName = "A320"; // Если код модели самолета пустой, то пусть будет A320
+                    }
+                    else // Если код модели самолета не пустой, то берем из имя словаря myKnownPlanes
+                    {
+                        if (myKnownPlanes.ContainsKey(myAllPlanesPars[myKeys[i]].Type))
+                        {
+                            myModelName = myKnownPlanes[myAllPlanesPars[myKeys[i]].Type];
+                        }
+                        else
+                        {
+                            myModelName = "A320"; // Если не знаем такой модели самолета, то тоже пусть будет A320
+                        }
+                    }
 
-                    // Отладка. Выведем в консоль модель и оператора самолета
-                    print("Модель " + myAllPlanesPars[myKeys[i]].Mdl + ", Код модели " + myAllPlanesPars[myKeys[i]].Type + ", Оператор " + myAllPlanesPars[myKeys[i]].Op + ", Код оператора " + myAllPlanesPars[myKeys[i]].OpIcao);
+                    String myAirlineName; // вторая часть имени - название (сокращенное) авиакомпании, берем из словаря myKnownPlanes
+                    if (myAllPlanesPars[myKeys[i]].OpIcao == null)
+                    {
+                        myAirlineName = ""; // Если код авиакомпании пустой, то пусть название будет ""
+                    }
+                    else // Если код авиакомпании не пустой, берем из ее обозначение из словаря myKnownAirlines
+                    {
+                        if (myKnownAirlines.ContainsKey(myAllPlanesPars[myKeys[i]].OpIcao))
+                        {
+                            myAirlineName = myKnownAirlines[myAllPlanesPars[myKeys[i]].OpIcao];
+                        }
+                        else
+                        {
+                            myAirlineName = ""; // Если не знаем такую автакомпанию, то обозначение тоже пусть будет ""
+                        }
+                    }
 
+                    String my3DName; // Сформируем имя для 3D модели
+                    if (myAirlineName != "") // если знаем такую авиакомпанию
+                    {
+                        String my3DNam = myModelName + "_" + myAirlineName; // предварительно имя 3D модели состоит из названия модели самолета и названия авиакомпании
+                        // Проверим, есть ли 3D модель с таким именем
+                        if (myPlanes3D.ContainsKey(my3DNam))
+                        {
+                            my3DName = my3DNam; // если есть - запоминаем в переменной my3DName
+                        }
+                        else
+                        {
+                            my3DName = myModelName; // если нет - имя 3D модели будет без только из названия самолета, без названия авиакомпании.
+                        }
+                    }
+                    else // если не знаем авиакомпанию, имя 3D модели будет без только из названия самолета
+                    {
+                        my3DName = myModelName;
+                    }
 
+                    // Отладка
+                    //print("======= Код модели самолета: " + myAllPlanesPars[myKeys[i]].Type  + ", модель самолета: " + myModelName + ", код компании: " + myAllPlanesPars[myKeys[i]].OpIcao  + ", название компании: " + myAirlineName + ", имя 3D модели: " + my3DName);
+                    // Еще раз проверим имя 3D модели
+
+                    //if (myPlanes3D.ContainsKey(my3DName))
+                    //{
+                    //    print("======= Есть такая 3D модель!");
+                    //}
+                    //else
+                    //{
+                    //    print("======= ОШИБКА! Нет такой 3D модели: " + my3DName);
+                    //}
+
+                    /*
                     // Теперь попробуем подобрать подходящую 3D модель из словаря по тексту названия модели самолета
                     String my3DName = "";
                     switch (myPlane.Banner1Model.text)
@@ -1014,33 +1126,11 @@ public class sFlightRadar : MonoBehaviour {
                         case "Airbus A319":
                         case "Airbus A320":
                         case "Airbus A321":
-                            if(myAllPlanesPars[myKeys[i]].OpIcao == "AFL") // Аэрофлот
-                            {
-                                my3DName = "A320_AFL";
-                            }
-                            else if(myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
-                            {
-                                my3DName = "A320_S7";
-                            }
-                            else // Любой другой A320
-                            {
-                                my3DName = "A320";
-                            }
+                            my3DName = "A320_AFL";
                             break;
                         case "Boeing 737":
                         case "Boeing 737NG":
-                            if (myAllPlanesPars[myKeys[i]].OpIcao == "AFL") // Аэрофлот
-                            {
-                                my3DName = "B737_AFL";
-                            }
-                            else if (myAllPlanesPars[myKeys[i]].OpIcao == "SBI") // S7
-                            {
-                                my3DName = "B737_S7";
-                            }
-                            else // Любой другой B737
-                            {
-                                my3DName = "B737";
-                            }
+                            my3DName = "B737";
                             break;
                         case "Sukhoi Superjet 100":
                             my3DName = "SSJ100";
@@ -1069,9 +1159,17 @@ public class sFlightRadar : MonoBehaviour {
                             my3DName = "A320";
                             break;
                     }
+                    */
+
+                    // Отладка
+                    print("======= Имя 3D модели: " + my3DName);
 
                     // Создадим копию 3D модели
                     Transform myPlane3D = Instantiate(myPlanes3D[my3DName]);
+                    
+                    // Отладка
+                    print("======= Копия 3D модели создана успешно");
+
 
                     // Переместим созданную 3D модель в дочерние объекты самолета
                     myPlane3D.parent = myPlane.GO.transform;
