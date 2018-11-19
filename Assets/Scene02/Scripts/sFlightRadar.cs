@@ -336,6 +336,9 @@ public class sFlightRadar : MonoBehaviour {
         myKnownPlanes.Add("A320", "A320");
         myKnownPlanes.Add("A321", "A320");
 
+        myKnownPlanes.Add("A332", "A330");
+        myKnownPlanes.Add("A333", "A330");
+
         myKnownPlanes.Add("A388", "A380");
 
         myKnownPlanes.Add("B731", "B737");
@@ -363,6 +366,7 @@ public class sFlightRadar : MonoBehaviour {
         myKnownPlanes.Add("E135", "ERJ145");
         myKnownPlanes.Add("E145", "ERJ145");
 
+        myKnownPlanes.Add("E170", "E170");
         myKnownPlanes.Add("IL96", "IL96");
         myKnownPlanes.Add("SU95", "SSJ100");
 
@@ -1105,71 +1109,20 @@ public class sFlightRadar : MonoBehaviour {
                         my3DName = myModelName;
                     }
 
-                    // Отладка
-                    //print("======= Код модели самолета: " + myAllPlanesPars[myKeys[i]].Type  + ", модель самолета: " + myModelName + ", код компании: " + myAllPlanesPars[myKeys[i]].OpIcao  + ", название компании: " + myAirlineName + ", имя 3D модели: " + my3DName);
-                    // Еще раз проверим имя 3D модели
-
-                    //if (myPlanes3D.ContainsKey(my3DName))
-                    //{
-                    //    print("======= Есть такая 3D модель!");
-                    //}
-                    //else
-                    //{
-                    //    print("======= ОШИБКА! Нет такой 3D модели: " + my3DName);
-                    //}
-
-                    /*
-                    // Теперь попробуем подобрать подходящую 3D модель из словаря по тексту названия модели самолета
-                    String my3DName = "";
-                    switch (myPlane.Banner1Model.text)
+                    //Отладка
+                    print("======= Код модели самолета: " + myAllPlanesPars[myKeys[i]].Type + ", модель самолета: " + myModelName + ", код компании: " + myAllPlanesPars[myKeys[i]].OpIcao + ", название компании: " + myAirlineName + ", имя 3D модели: " + my3DName);
+                    //Еще раз проверим имя 3D модели
+                    if (myPlanes3D.ContainsKey(my3DName))
                     {
-                        case "Airbus A319":
-                        case "Airbus A320":
-                        case "Airbus A321":
-                            my3DName = "A320_AFL";
-                            break;
-                        case "Boeing 737":
-                        case "Boeing 737NG":
-                            my3DName = "B737";
-                            break;
-                        case "Sukhoi Superjet 100":
-                            my3DName = "SSJ100";
-                            break;
-                        case "Boeing 777":
-                            my3DName = "B777";
-                            break;
-                        case "Airbus A380":
-                            my3DName = "A380";
-                            break;
-                        case "Boeing 747":
-                            my3DName = "B747";
-                            break;
-                        case "Embraer ERJ-135":
-                        case "Embraer ERJ-140":
-                        case "Embraer ERJ-145":
-                            my3DName = "ERJ145";
-                            break;
-                        case "Ilyushin Il-96":
-                            my3DName = "Il96";
-                            break;
-                        case "Cessna":
-                            my3DName = "Cessna172";
-                            break;
-                        default:
-                            my3DName = "A320";
-                            break;
+                        print("======= Есть такая 3D модель!");
                     }
-                    */
-
-                    // Отладка
-                    print("======= Имя 3D модели: " + my3DName);
+                    else
+                    {
+                        print("======= ОШИБКА! Нет такой 3D модели: " + my3DName);
+                    }
 
                     // Создадим копию 3D модели
                     Transform myPlane3D = Instantiate(myPlanes3D[my3DName]);
-                    
-                    // Отладка
-                    print("======= Копия 3D модели создана успешно");
-
 
                     // Переместим созданную 3D модель в дочерние объекты самолета
                     myPlane3D.parent = myPlane.GO.transform;
