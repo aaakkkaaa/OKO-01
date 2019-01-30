@@ -789,6 +789,9 @@ public class sFlightRadar : MonoBehaviour {
                         Vector3 myResponsedPosition;
                         myResponsedPosition.y = Mathf.Max(myOnePlanePars.GAlt * myFeet - myAirport_ALt, 0.0f); // Высота
                         Vector2d worldPosition = Conversions.GeoToWorldPosition(myOnePlanePars.Lat, myOnePlanePars.Long, myCenterMercator, myWorldRelativeScale);
+
+                        MyLog(myKey, "ProcData", "=== myFuncThread(): ключ = " + myKey + " !!!! Lat = " + myOnePlanePars.Lat + " Long = " + myOnePlanePars.Long + " myCenterMercator = " + myCenterMercator + " myWorldRelativeScale = " + myWorldRelativeScale + " worldPosition = " + worldPosition);
+
                         myResponsedPosition.x = (float)worldPosition.x;
                         myResponsedPosition.z = (float)worldPosition.y;
                         myPlane.Position = myResponsedPosition + myPosShift;
@@ -1136,7 +1139,7 @@ public class sFlightRadar : MonoBehaviour {
                     myPlaneVis[myKeys[i]] = myPlane; // Уточним малую структуру в словаре
                 }
                 // Удалим устаревший самолет и его записи во всех словарях. Также удалим самолет, если он "приземлися"
-                else if (((myResponseTime - myPlane.Time) > 5000))
+                else if (((myResponseTime - myPlane.Time) > 15000))
                 {
                     myPlaneToDelete = true;
                     MyLog("ProcData", myKeys[i], "%%% myFuncProcData(): Будем удалять устаревший самолет " + myKeys[i] + ". Время последнего приема данных от сервера = " + myResponseTime + ", время поступления последних данных о самолете = " + myPlane.Time);
